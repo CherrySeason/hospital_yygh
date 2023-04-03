@@ -1,0 +1,17 @@
+2023-03-25 14:33:22.587 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2023-03-25 15:05:54.550 [http-nio-8201-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'contacts_phone' at row 1
+### The error may exist in com/atguigu/yygh/hosp/mapper/HospitalSetMapper.java (best guess)
+### The error may involve com.atguigu.yygh.hosp.mapper.HospitalSetMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hospital_set  ( hosname, hoscode, api_url, sign_key, contacts_name, contacts_phone, status )  VALUES  ( ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'contacts_phone' at row 1
+; Data truncation: Data too long for column 'contacts_phone' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'contacts_phone' at row 1]
+2023-03-25 15:06:09.156 [http-nio-8201-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'contacts_phone' at row 1
+### The error may exist in com/atguigu/yygh/hosp/mapper/HospitalSetMapper.java (best guess)
+### The error may involve com.atguigu.yygh.hosp.mapper.HospitalSetMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hospital_set  ( hosname, hoscode, api_url, sign_key, contacts_name, contacts_phone, status )  VALUES  ( ?, ?, ?, ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'contacts_phone' at row 1
+; Data truncation: Data too long for column 'contacts_phone' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'contacts_phone' at row 1]
